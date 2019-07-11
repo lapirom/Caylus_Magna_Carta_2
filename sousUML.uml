@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/Romain/Desktop/CM/Caylus_Magna_Carta_2/caylusMC.py</OriginalElement>
+  <nodes>
+    <node x="0.0" y="987.0">caylusMC.Money</node>
+    <node x="0.0" y="0.0">caylusMC.Player</node>
+    <node x="579.0" y="755.0">caylusMC.ColorPlayer</node>
+    <node x="233.0" y="943.0">caylusMC.Resource</node>
+    <node x="138.5" y="755.0">caylusMC.MoneyResource</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="caylusMC.Resource" target="caylusMC.MoneyResource">
+      <point x="0.0" y="-80.0" />
+      <point x="383.5" y="918.0" />
+      <point x="298.25" y="918.0" />
+      <point x="53.25" y="69.0" />
+    </edge>
+    <edge source="caylusMC.Money" target="caylusMC.MoneyResource">
+      <point x="0.0" y="-36.0" />
+      <point x="106.5" y="918.0" />
+      <point x="191.75" y="918.0" />
+      <point x="-53.25" y="69.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6716494845360824" x="715.0198910458842" y="572.9270913277053" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+
