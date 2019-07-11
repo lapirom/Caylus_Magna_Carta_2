@@ -7,4 +7,4 @@ python:
   - "nightly"  # nightly build
 cache: pip
 script:
-  - python caylusMC.py game_elements-CaylusMagnaCarta.xml Beginner red blue=Basic
+  - python caylusMC.py game_elements-CaylusMagnaCarta.xml Beginner red blue=Basic < testing.txt
