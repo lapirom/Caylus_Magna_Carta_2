@@ -223,7 +223,7 @@ class Player():
                int(sum([self.current_money_resources.get(resource_not_wild)
                         for resource_not_wild in module_Resource.Resource.resources.values()
                         if not resource_not_wild is None and not resource_not_wild.is_wild()]) / 3) + \
-               int(self.current_money_resources.get(Money.money) / 3)
+               int(self.current_money_resources.get(module_Resource.Money.money) / 3)
 
     @abc.abstractmethod
     def choose_discard_hand_for_new(self) -> bool:

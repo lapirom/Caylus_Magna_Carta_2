@@ -89,11 +89,11 @@
       <find>red</find>
       <find>color</find>
       <find>blue</find>
-      <find>the color</find>
+      <find />
       <find>play_phase</find>
       <find>Resource</find>
       <find>buildingtype</find>
-      <find>class buildingtype</find>
+      <find />
       <find>MoneyResource</find>
       <find>Money</find>
       <find>[Money</find>
@@ -104,17 +104,17 @@
       <find>location</find>
       <find />
       <find>Player</find>
-      <find>Player</find>
+      <find />
       <find>Location</find>
       <find>indent</find>
       <find>collections</find>
       <find>resource(</find>
-      <find>resource(</find>
+      <find />
       <find>itertools</find>
-      <find>BuildingType.</find>
+      <find />
       <find>module_Player.</find>
       <find>ABBREV_NO_USE_EFFECT</find>
-      <find>ABBREV_NO_USE_EFFECT = 'N'  # type: str[1]</find>
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>module_Resouces</replace>
@@ -128,8 +128,8 @@
       <replace>module_Phase.CastlePhase</replace>
       <replace>module_Player.ColorPlayer</replace>
       <replace>module_Player.Player</replace>
-      <replace>module_Player.Player</replace>
-      <replace>module_Building.BuildingType.</replace>
+      <replace />
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -149,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
