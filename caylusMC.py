@@ -673,12 +673,14 @@ class Game:
         self.replay()
 
     def replay(self):
-        response = input(indent(3) + 'Replay?' )  # type: str
+        response = input(indent(3) + 'Replay? yes or no')  # type: str
         if response == "yes":
             #reset ?
             params = input(indent(3) + 'Parameters?')  # type: str
-            self.__init__(params)
-            self.setup()
+            g = GameElement().game
+            g.__init__(params)
+            g.setup()
+            g.play()
 
     def print_turn_begin(self, n_turns: int) -> None:
         """Print the beginning of a turn."""

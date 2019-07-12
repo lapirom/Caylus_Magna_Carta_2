@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0e35a595-bc9b-4e0c-9013-bd55ac61d1ef" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_Building.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_Building.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_Player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/UML.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caylusMC.py" beforeDir="false" afterPath="$PROJECT_DIR$/caylusMC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sousUML.png" beforeDir="false" afterPath="$PROJECT_DIR$/sousUML.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +19,8 @@
       <file leaf-file-name="caylusMC.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caylusMC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="32" selection-start-line="32" selection-end-line="33" selection-end-column="87" />
+            <state relative-caret-position="126">
+              <caret line="674" column="21" selection-start-line="674" selection-start-column="21" selection-end-line="674" selection-end-column="21" />
               <folding>
                 <element signature="e#528#546#0" expanded="true" />
               </folding>
@@ -31,34 +31,17 @@
       <file leaf-file-name="tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="-272">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module_Player.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module_Player.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="332" column="27" selection-start-line="332" selection-start-column="8" selection-end-line="332" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module_Resource.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module_Resource.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="module_Building.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module_Building.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="303" column="60" selection-start-line="303" selection-start-column="46" selection-end-line="303" selection-end-column="60" />
+            <state relative-caret-position="373">
+              <caret line="613" selection-start-line="613" selection-end-line="613" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -66,20 +49,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module_Phase.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module_Phase.py">
+      <file leaf-file-name="module_Player.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module_Player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Location.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Location.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="206">
+              <caret line="328" column="43" selection-start-line="326" selection-start-column="8" selection-end-line="328" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,16 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>play_phase_income</find>
-      <find>Phase</find>
-      <find>play_phase_inc</find>
-      <find>location</find>
-      <find />
-      <find>Player</find>
-      <find>Player</find>
-      <find>Location</find>
-      <find>indent</find>
-      <find>collections</find>
       <find>resource(</find>
       <find>resource(</find>
       <find>itertools</find>
@@ -124,7 +91,17 @@
       <find>income</find>
       <find>apply_peddler_effect</find>
       <find>choose_buy_resource</find>
+      <find>resource_all_pa</find>
       <find>ordinal_number</find>
+      <find>resource_all_payments</find>
+      <find>remove_to</find>
+      <find>choose_n_provost_movement</find>
+      <find>check_response_in_interval</find>
+      <find>game_element</find>
+      <find>win</find>
+      <find>end</find>
+      <find>setup</find>
+      <find>new</find>
     </findStrings>
     <replaceStrings>
       <replace>module_Resouces</replace>
@@ -152,10 +129,10 @@
         <option value="$PROJECT_DIR$/module_building.py" />
         <option value="$PROJECT_DIR$/module_Phase.py" />
         <option value="$PROJECT_DIR$/Location.py" />
-        <option value="$PROJECT_DIR$/caylusMC.py" />
         <option value="$PROJECT_DIR$/module_Player.py" />
         <option value="$PROJECT_DIR$/module_Building.py" />
         <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/caylusMC.py" />
       </list>
     </option>
   </component>
@@ -213,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tests">
+  <component name="RunManager" selected="Python.caylusMC">
     <configuration name="caylusMC" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Caylus_Magna_Carta_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -289,8 +266,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tests" />
         <item itemvalue="Python.caylusMC" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python tests.Unittests in Caylus_Magna_Carta_2" />
         <item itemvalue="Python.get-pip" />
       </list>
@@ -318,15 +295,15 @@
     <frame x="953" y="0" width="974" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23277661" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10960334" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925585" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2674897" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2695473" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3955148" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -339,9 +316,9 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3985729" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2674897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116145834" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23277661" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -349,7 +326,7 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925585" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -365,17 +342,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/caylusMC.py</url>
-          <line>228</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/module_Building.py</url>
-          <line>613</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/module_Player.py</url>
+          <line>329</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -391,13 +363,6 @@
     <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/Location.py" />
     <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/module_Player.py" />
     <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/caylusMC.py" />
-    <entry file="file://$PROJECT_DIR$/module_Phase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Location.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -405,33 +370,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module_Player.py">
+    <entry file="file://$PROJECT_DIR$/module_Phase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="332" column="27" selection-start-line="332" selection-start-column="8" selection-end-line="332" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module_Resource.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://C:/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="662" selection-start-line="662" selection-end-line="662" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module_Building.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="303" column="60" selection-start-line="303" selection-start-column="46" selection-end-line="303" selection-end-column="60" />
+        <state relative-caret-position="373">
+          <caret line="613" selection-start-line="613" selection-end-line="613" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module_Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="328" column="43" selection-start-line="326" selection-start-column="8" selection-end-line="328" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/caylusMC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="32" selection-start-line="32" selection-end-line="33" selection-end-column="87" />
+        <state relative-caret-position="126">
+          <caret line="674" column="21" selection-start-line="674" selection-start-column="21" selection-end-line="674" selection-end-column="21" />
           <folding>
             <element signature="e#528#546#0" expanded="true" />
           </folding>
@@ -440,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="-272">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
