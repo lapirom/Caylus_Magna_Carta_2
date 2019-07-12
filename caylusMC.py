@@ -670,6 +670,15 @@ class Game:
         print('The winner(s) is(are): ' +
               TXT_SEPARATOR.join(self.players[i_player].name() for i_player in range(self.n_players)
                                  if tot_n_prestige_pts_players[i_player] == max_tot_n_prestige_pts) + '.')
+        self.replay()
+
+    def replay(self):
+        response = input(indent(3) + 'Replay?' )  # type: str
+        if response == "yes":
+            #reset ?
+            params = input(indent(3) + 'Parameters?')  # type: str
+            self.__init__(params)
+            self.setup()
 
     def print_turn_begin(self, n_turns: int) -> None:
         """Print the beginning of a turn."""
