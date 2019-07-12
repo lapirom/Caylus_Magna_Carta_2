@@ -2,37 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e35a595-bc9b-4e0c-9013-bd55ac61d1ef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Caylus_Magna_Carta_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Caylus_Magna_Carta_2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_Building.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_Phase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_Player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_Resource.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caylusMC.py" beforeDir="false" afterPath="$PROJECT_DIR$/caylusMC.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file leaf-file-name="caylusMC.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/caylusMC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="73" column="67" selection-start-line="73" selection-start-column="67" selection-end-line="73" selection-end-column="67" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#528#546#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py.uml">
+      <file leaf-file-name="module_Player.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module_Player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+            <state relative-caret-position="324">
+              <caret line="394" selection-start-line="394" selection-end-line="394" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module_Resource.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module_Resource.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="module_Building.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module_Building.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="module_Phase.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module_Phase.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Location.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Location.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -40,24 +90,87 @@
       <find>color</find>
       <find>blue</find>
       <find>the color</find>
+      <find>play_phase</find>
+      <find>Resource</find>
+      <find>buildingtype</find>
+      <find>class buildingtype</find>
+      <find>MoneyResource</find>
+      <find>Money</find>
+      <find>[Money</find>
+      <find>play_phase_income</find>
+      <find>income_effect</find>
+      <find>Phase</find>
+      <find>play_phase_inc</find>
+      <find>location</find>
+      <find />
+      <find>Player</find>
+      <find>Player</find>
+      <find>Location</find>
+      <find>indent</find>
+      <find>collections</find>
+      <find>resource(</find>
+      <find>resource(</find>
+      <find>itertools</find>
+      <find>BuildingType.</find>
+      <find>module_Player.</find>
+      <find>ABBREV_NO_USE_EFFECT</find>
+      <find>ABBREV_NO_USE_EFFECT = 'N'  # type: str[1]</find>
     </findStrings>
+    <replaceStrings>
+      <replace>module_Resouces</replace>
+      <replace>module_Resource.Resource</replace>
+      <replace>module_Resource.MoneyResource</replace>
+      <replace>module_Resource.Money</replace>
+      <replace>(module_Resource.Resource</replace>
+      <replace>[module_Resource.Resource</replace>
+      <replace>[module_Resource.Money</replace>
+      <replace>(module_Resource.Money</replace>
+      <replace>module_Phase.CastlePhase</replace>
+      <replace>module_Player.ColorPlayer</replace>
+      <replace>module_Player.Player</replace>
+      <replace>module_Player.Player</replace>
+      <replace>module_Building.BuildingType.</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="506" />
-    <option name="y" value="24" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/module_Resource" />
+        <option value="$PROJECT_DIR$/module_building.py" />
+        <option value="$PROJECT_DIR$/module_Phase.py" />
+        <option value="$PROJECT_DIR$/Location.py" />
+        <option value="$PROJECT_DIR$/module_Building.py" />
+        <option value="$PROJECT_DIR$/module_Player.py" />
+        <option value="$PROJECT_DIR$/caylusMC.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Caylus_Magna_Carta_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Caylus_Magna_Carta_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -72,6 +185,11 @@
         <option name="myModuleName" value="Caylus_Magna_Carta_2" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\Desktop\CaylusMagnaCarta\Caylus_Magna_Carta_2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,9 +221,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="get-pip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Caylus_Magna_Carta_2" />
@@ -124,17 +239,49 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Caylus_Magna_Carta_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests in Caylus_Magna_Carta_2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Caylus_Magna_Carta_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
       <item itemvalue="Python.caylusMC" />
       <item itemvalue="Python.get-pip" />
+      <item itemvalue="Python.tests" />
+      <item itemvalue="Python tests.Unittests in Caylus_Magna_Carta_2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.caylusMC" />
+        <item itemvalue="Python tests.Unittests in Caylus_Magna_Carta_2" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.get-pip" />
       </list>
     </recent_temporary>
@@ -152,46 +299,124 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_Caylus_Magna_Carta_2 - 2019.07.12 at 08h 32m 23s.xml">
+      <configuration name="Unittests in Caylus_Magna_Carta_2" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18229716" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40290758" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.116145834" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925585" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3985729" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3985729" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.116145834" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925585" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Location.py</url>
+          <line>2</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/caylusMC.py" />
+    <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/Location.py" />
+    <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/caylusMC.py" />
     <entry file="file:Z:/../../../..//Z:/Downloads/get-pip.py" />
-    <entry file="file://$PROJECT_DIR$/caylusMC.py">
+    <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/py.uml" />
+    <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/tests.py" />
+    <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/module_Resource.py" />
+    <entry file="file:Z:/../../../..//C:/Python37/Lib/enum.py" />
+    <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/module_Phase.py" />
+    <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/Location.py" />
+    <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/module_Player.py" />
+    <entry file="file:Z:/../../../..//Z:/Desktop/CaylusMagnaCarta/Caylus_Magna_Carta_2/caylusMC.py" />
+    <entry file="file://$PROJECT_DIR$/Location.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="73" column="67" selection-start-line="73" selection-start-column="67" selection-end-line="73" selection-end-column="67" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py.uml">
+    <entry file="file://$PROJECT_DIR$/caylusMC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#528#546#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="394" selection-start-line="394" selection-end-line="394" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_Resource.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_Building.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module_Phase.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
