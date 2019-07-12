@@ -473,7 +473,7 @@ class BankPlayerBuilding(PlayerBuilding):
         """
         # Remark: Hard-coded! We don't use the tag <CHOICES>... in <game_elements><buildings><player_buildings><player_building><secondary_effect>.
         super().apply_primary_effect(player)
-        all_costs = [(Money.money, -1), (Money.money, -3)]  # type: List[Tuple[module_Resource.Money, int]] # Ordered!
+        all_costs = [(module_Resource.Money.money, -1), (module_Resource.Money.money, -3)]  # type: List[Tuple[module_Resource.Money, int]] # Ordered!
         resource_gain_choices, single_qty_gain = [module_Resource.Resource.get_wild_resource()], \
                                                  +1  # type: List[module_Resource.Resource], int # single_qty_gain must be equals to one!
         self.apply_effect_multi(player, all_costs, resource_gain_choices, single_qty_gain)
@@ -528,7 +528,7 @@ class ChurchPlayerBuilding(PlayerBuilding):
         """
         # Remark: Hard-coded! We don't use the tag <CHOICES>... in <game_elements><buildings><player_buildings><player_building><secondary_effect>.
         super().apply_primary_effect(player)
-        self.apply_effect_buy_castle_multi(player, [(Money.money, -2), (Money.money, -5)])
+        self.apply_effect_buy_castle_multi(player, [(module_Resource.Money.money, -2), (module_Resource.Money.money, -5)])
 
     def apply_secondary_effect(self) -> None:
         """Apply the secondary effect of a church player building."""
@@ -537,7 +537,7 @@ class ChurchPlayerBuilding(PlayerBuilding):
         """
         # Remark: Hard-coded! We don't use the tags <cost><n_deniers>-3 and <gain><n_castle_tokens>+1 in <game_elements><buildings><player_buildings><player_building><secondary_effect>.
         super().apply_secondary_effect()
-        self.apply_effect_buy_castle_multi(self.color_player.player, [(Money.money, -3)])
+        self.apply_effect_buy_castle_multi(self.color_player.player, [(module_Resource.Money.money, -3)])
 
     def apply_effect_buy_castle_multi(self, player: Player, all_costs) -> None:
         """Apply the primary or secondary effect of a church player building that is buy Castle tokens with deniers."""

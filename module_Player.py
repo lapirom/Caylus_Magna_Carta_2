@@ -340,14 +340,14 @@ class HumanPlayer(Player):
             possibilities.append(abbrev_resource_name)
         print(indent(4) + self.txt_name_money_resources_workers_PPs_deck(True, True, False, False, False) + '.')
         response = input(indent(4) + 'Do you want to consume ' + str(qty_cost) + ' ' + money_resource_cost.name +
-                         '(s) to obtain ' + str(qty_gain) + ' resource ' + module_Building.Building.TXT_NO_USE_EFFECT +
+                         '(s) to obtain ' + str(qty_gain) + ' resource ' + module_Building.TXT_NO_USE_EFFECT +
                          '? [' + '/'.join(possibilities) + '] ')  # type: str
         response = self.check_response_in_possibilities(response, possibilities, 5)
-        return None if response == module_Building.Building.ABBREV_NO_USE_EFFECT else abbrev_resource_name_resource[response]
+        return None if response == module_Building.ABBREV_NO_USE_EFFECT else abbrev_resource_name_resource[response]
 
     def choose_buy_resource_multi(self, costs, resource_gain_choices, qty_gain: int):  # -> List[module_Resource.Resource]
         # Remark: we only consider the case that costs is a List[Tuple[module_Resource.Money,int]] without resource and of length 2 or more.
-        possibilities = list(module_Building.Building.ABBREV_NO_USE_EFFECT)  # type: List[str[1..qty_gain]]
+        possibilities = list(module_Building.ABBREV_NO_USE_EFFECT)  # type: List[str[1..qty_gain]]
         abbrev_resource_name_resource = {resource.get_name_abbreviation(): resource
                                          for resource in resource_gain_choices
                                          }  # type: Dict[str[1],module_Resource.Resource] # E.g. {'F': food, ...}.
@@ -360,10 +360,10 @@ class HumanPlayer(Player):
                          ' or '.join(str(qty_cost) + ' ' + money_resource_cost.name +
                                      '(s) for ' + str(1 + i_costs) + ' resource(s)'
                                      for i_costs, (money_resource_cost, qty_cost) in enumerate(costs)) +
-                         ' ' + module_Building.Building.TXT_NO_USE_EFFECT + '? [' + '/'.join(possibilities) + '] ')  # type: str
+                         ' ' + module_Building.TXT_NO_USE_EFFECT + '? [' + '/'.join(possibilities) + '] ')  # type: str
         response = self.check_response_in_possibilities(response, possibilities, 5)
         choose_buy_resource_multi = list()
-        if response != module_Building.Building.ABBREV_NO_USE_EFFECT:
+        if response != module_Building.ABBREV_NO_USE_EFFECT:
             for abbrev_resource_name in response:
                 choose_buy_resource_multi.append(abbrev_resource_name_resource[abbrev_resource_name])
         return choose_buy_resource_multi
@@ -388,7 +388,7 @@ class HumanPlayer(Player):
         print(indent(4) + self.txt_name_money_resources_workers_PPs_deck(True, True, False, False, False) + '.')
         response = input(indent(4) + 'Do you want to exchange '
                          + str(qty_cost) + ' of some resource with ' + str(qty_gain) + ' ' + money_resource_gain.name +
-                         (' or not use the effect ' + Building.TXT_NO_USE_EFFECT if can_no_use_effect else '') +
+                         (' or not use the effect ' +module_Building.TXT_NO_USE_EFFECT if can_no_use_effect else '') +
                          '? [' + '/'.join(possibilities) + '] ')  # type: str
         response = self.check_response_in_possibilities(response, possibilities, 5)
         return None if response == module_Building.ABBREV_NO_USE_EFFECT else abbrev_resource_name_resources[response]

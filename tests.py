@@ -24,10 +24,26 @@ import unittest
 import caylusMC
 
 class MyTest(unittest.TestCase):
-    def test_is_even(self):
+    def test_Money_singleton(self):
         mr = caylusMC.MoneyResource("Gold", 2)
         m = caylusMC.Money(mr, 1)
         self.assertEqual(m.money, "Gold")
+
+    def test_ordinal_number(self):
+        self.assertEqual(caylusMC.ordinal_number(1), "1st")
+        self.assertEqual(caylusMC.ordinal_number(2), "2nd")
+        self.assertEqual(caylusMC.ordinal_number(3), "3rd")
+        self.assertEqual(caylusMC.ordinal_number(4), "4th")
+        self.assertEqual(caylusMC.ordinal_number(11), "11st")
+        self.assertEqual(caylusMC.ordinal_number(12), "12nd")
+        self.assertEqual(caylusMC.ordinal_number(13), "13rd")
+        self.assertEqual(caylusMC.ordinal_number(14), "14th")
+        with self.assertRaises(Exception) as context:
+            caylusMC.ordinal_number(0)
+        self.assertTrue('The ordinal number is not defined for non-positive integers.' in str(context.exception))
+        with self.assertRaises(Exception) as context:
+            caylusMC.ordinal_number(-1)
+        self.assertTrue('The ordinal number is not defined for non-positive integers.' in str(context.exception))
 
 if __name__ == '__main__':
     unittest.main()
